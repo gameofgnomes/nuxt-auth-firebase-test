@@ -15,13 +15,7 @@ export const getters = {
 
 export const mutations = {
   setUser(state, payload) {
-
-    console.log(state.user, payload);
-
-    let user = state.user;
-    let updatedUser = payload;
-
-    user = updatedUser;
+    state.user = payload;
   }
 };
 
