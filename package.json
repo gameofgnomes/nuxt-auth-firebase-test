@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-firebase-vuex-auth",
+  "version": "1.0.0",
+  "description": "My dandy Nuxt.js project",
+  "author": "Mike",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/dotenv": "^1.4.0",
+    "firebase": "^7.14.0",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^1.0.0"
+  }
+}
